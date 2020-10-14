@@ -2,6 +2,64 @@
  * YOUR CODE HERE *
  ******************/
 
+const addAll = function (arr) {
+  let total = 0;
+  
+  for (const sum of arr) {
+    total += sum;
+}
+  return total;
+};
+
+const countSpaces = function (str) {
+  let totalSpaces = 0 ;
+
+  for (const spaces of str) {
+    if (spaces === ' ') {
+      totalSpaces++;
+    }
+  }
+  return totalSpaces;
+};
+
+const countTrues = function (arr) {
+  let trueValues = 0;
+
+  for (const count of arr) {
+    if (count === true) {
+      trueValues++;
+    }
+  }
+  return trueValues;
+};
+
+const makeFriendly = function (str) {
+  let newStr = '';
+  for (const paragraph of str)
+    if (paragraph === '.') {
+      newStr += '!';
+    }
+    else {
+      newStr += paragraph;
+    }
+  return newStr;
+}
+
+
+
+
+const cubeAll = function (arr) {
+  let result = [];
+
+  for (const cubed of arr) {
+    result.push(cubed ** 3);
+  }
+  return result;
+};
+
+
+
+
 
 
 
